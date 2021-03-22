@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="1.5线性表, Java,MySQL,C,C++,Python">
+    <meta name="keywords" content="Maven的基础知识, Java,MySQL,C,C++,Python">
     <meta name="description" content="This is my blog.Thanks to visit it!">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>1.5线性表 | XiaoXiao&#39;s blogs</title>
+    <title>Maven的基础知识 | XiaoXiao&#39;s blogs</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -318,7 +318,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">1.5线性表</h1>
+                    <h1 class="description center-align post-title">Maven的基础知识</h1>
                 </div>
             </div>
         </div>
@@ -438,8 +438,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/C%E8%AF%AD%E8%A8%80/">
-                                <span class="chip bg-color">C语言</span>
+                            <a href="/tags/Maven/">
+                                <span class="chip bg-color">Maven</span>
+                            </a>
+                        
+                            <a href="/tags/Java/">
+                                <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                            <a href="/tags/JavaWeb/">
+                                <span class="chip bg-color">JavaWeb</span>
                             </a>
                         
                     </div>
@@ -450,8 +458,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="post-category">
-                                数据结构
+                            <a href="/categories/JavaWeb/" class="post-category">
+                                JavaWeb
                             </a>
                         
                     </div>
@@ -463,28 +471,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-03-15
+                    2021-03-20
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2021-03-15
+                    2021-03-22
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    533
+                    1.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    5 Min
                 </div>
                 
 
@@ -509,21 +517,92 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Hello，大家好，我是肖肖，欢迎大家来到“肖肖的数据结构讲堂”。今天我们不讲新的内容，而是补充一些之前没有讲过的东西，比如线性表的概念，特点，定义等等。本章将是一个愉快的章节。</p>
-<hr>
-<h3 id="一、-线性表的定义"><a href="#一、-线性表的定义" class="headerlink" title="一、 线性表的定义"></a>一、 线性表的定义</h3><p>​    到底什么是线性表呢？其实，线性表顾名思义，就是由n(n&gt;=0)个<strong>同一类型</strong>的数据元素构成的<strong>有限序列</strong>的<strong>线性</strong>结构。</p>
-<p>​    其中呢，我们把n记为线性表的长度，表中的第一个元素叫做表头，表中的最后一个元素叫做表尾。如图所示：</p>
-<p><img src="https://www.helloimg.com/images/2021/03/15/BNzIRz.png" alt="线性表示例"></p>
-<p>a1即表头，a5即表尾。然后我们把目光移到a3，为什么呢？因为我们的新概念来啦——前驱和后继。a1，a2都是a3的前驱，a4，a5都是a3的后继。所谓前驱，可以简单的理解为是当前元素前面的元素，后继也是如此，当前元素后面的元素。其中还有两个特殊的前驱和后继，就是挨着a3的那两个元素，称为直接前驱和直接后继。</p>
-<h3 id="二、线性表的特点"><a href="#二、线性表的特点" class="headerlink" title="二、线性表的特点"></a>二、线性表的特点</h3><p>​    我们观察上面的图片很容易发现，在一个线性表中有以下特点：</p>
+                <h1 id="Maven的基础知识"><a href="#Maven的基础知识" class="headerlink" title="Maven的基础知识"></a>Maven的基础知识</h1><p>​    学完本章，你将掌握Maven的一些基础知识。</p>
+<h3 id="一、-什么是Maven？"><a href="#一、-什么是Maven？" class="headerlink" title="一、 什么是Maven？"></a>一、 什么是Maven？</h3><blockquote>
+<p>maven是一个项目构建和管理的工具，提供了帮助管理 构建、文档、报告、依赖、scms、发布、分发的方法。可以方便的编译代码、进行依赖管理、管理二进制库等等。<br>maven的好处在于可以将项目过程规范化、自动化、高效化以及强大的可扩展性。利用maven自身及其插件还可以获得代码检查报告、单元测试覆盖率、实现持续集成等等。@sirai</p>
+</blockquote>
+<h3 id="二、-Maven的安装及其环境变量配置"><a href="#二、-Maven的安装及其环境变量配置" class="headerlink" title="二、 Maven的安装及其环境变量配置"></a>二、 Maven的安装及其环境变量配置</h3><ol>
+<li><p>安装：</p>
+<p>进入 [Maven]: <a target="_blank" rel="noopener" href="https://maven.apache.org/download.cgi">https://maven.apache.org/download.cgi</a> 的下载页，选择<strong>Binary zip archive</strong>那一栏的。下载完毕后解压到工作目录下，即可。</p>
+</li>
+<li><p>环境变量配置：</p>
 <ul>
-<li>存在唯一的一个被称作“第一个”的数据元素；</li>
-<li>存在唯一的一个被称作“最后一个”的数据元素；</li>
-<li>除了第一个外，结构中的每个数据元素均只有一个直接前驱；</li>
-<li>除了最后一个外，结构中的每个数据元素均只有一个直接后继；</li>
+<li><p>添加全局变量：</p>
+<p>M2_HOME，值是你Maven解压的目录。</p>
+</li>
+<li><p>增加PATH中的内容：</p>
+<p>在path末尾添加以下值：%M2_HOME%\bin;</p>
+</li>
 </ul>
-<h3 id="三、线性表的种类"><a href="#三、线性表的种类" class="headerlink" title="三、线性表的种类"></a>三、线性表的种类</h3><p>大致分为四种吧，顺序表、链表、栈、队列。</p>
-<h3 id="四、作者的话"><a href="#四、作者的话" class="headerlink" title="四、作者的话"></a>四、作者的话</h3><p>​    可以看出这篇文章有点水，emmm。咕咕咕很久一段时间，导致现在不知道要这么写博客了。下次的链表我打算分为单链表和双链表两个部分，考虑到很多课本都没有循环链表的具体实现，下次的博文我会写上实现他们。谢谢！</p>
+</li>
+<li><p>在cmd中输入 <strong>mvn help : system</strong></p>
+<p>如果显示了<u>System Properties，Environment Variables</u> 两类信息，则Maven安装成功。</p>
+</li>
+</ol>
+<h3 id="三、-Maven的安装目录"><a href="#三、-Maven的安装目录" class="headerlink" title="三、 Maven的安装目录"></a>三、 Maven的安装目录</h3><ul>
+<li><p>bin：保存Maven的可执行命令。其中<strong>mvn</strong>和<strong>mvn.bat</strong>就是执行Maven工具的命令。</p>
+</li>
+<li><p>boot：该目录只包含一个名为：<strong>plexus-classworlds-2.6.0.jar</strong>的文件。plexus-classworlds是一个类加载器框架，与默认的Java类加载器 相比，它提供了更丰富的语法以方便配置，Maven使用该框架加载自己的类库。我们一般不用管这个文件。</p>
+</li>
+<li><p>conf：保存Maven配置文件的目录，该目录包含<strong>settings.xml</strong>文件，该文件用于设置Maven的全局行为。通常建议将该文件复制到                        用户目录/.m2/目录下，这样可以只设置当前用户的Maven行为。</p>
+</li>
+<li><p>lib：该目录包含所有Maven运行时需要的类库，Maven本身是分模块开发的，因此用户能看到诸如<strong>maven-core-3.6.2.jar</strong>、<strong>maven-reposito-metadata-3.6.2.jar</strong>等文件。此外，还包含Maven所依赖的第三方类库。</p>
+</li>
+<li><p>LICENSE、README.txt等说明性文档。</p>
+</li>
+</ul>
+<h3 id="四、设置Maven"><a href="#四、设置Maven" class="headerlink" title="四、设置Maven"></a>四、设置Maven</h3><h4 id="1、设置Maven的两种方式："><a href="#1、设置Maven的两种方式：" class="headerlink" title="1、设置Maven的两种方式："></a>1、设置Maven的两种方式：</h4><ul>
+<li>全局方式：通过Maven安装目录下的conf\settings.xml文件进行设置。</li>
+<li>当前用户方式：通过当前用户Home目录的.m2\目录下的settings.xml文件进行设置。</li>
+</ul>
+<h4 id="2、可设置的参数："><a href="#2、可设置的参数：" class="headerlink" title="2、可设置的参数："></a>2、可设置的参数：</h4><ul>
+<li>localRepository：该元素的内容是一个路径字符串，该路径字符串用于设置Maven的本地资源库路径。如果用户不设置该参数，Maven本地资源库默认保存在<strong>用户Home目录的.m2/repository</strong>路径下。可以改成其他位置，比如：E:\work\maven_repo，这样Maven会把所有插件都下载到E:\work\maven_repo目录下。</li>
+<li>interactiveMode：该参数设置Maven是否处于交互模式——如果将Maven设为交互模式，每当Maven需要用户输入时，Maven都会提示用户输入。但如果将该参数设为false，那么Maven将不会提示用户输入，而是“智能”的使用默认值。</li>
+<li>offline：该参数设置Maven是否处于离线状态。如果将该参数设置为false，那么当Maven找不到插件、依赖库时，总是会尝试从网络中下载。</li>
+<li>proxies：该参数用于为Maven服务器设置代理服务器。可保护多个&lt;proxiy…/&gt;，每个可以设置一个代理服务器，包括代理服务器的ID、协议、代理服务器地址、代理服务器端口、用户名、密码等信息。</li>
+<li>mirrors：该参数用于设置一系列Maven远程资源库镜像。</li>
+</ul>
+<h4 id="3、-下载插件"><a href="#3、-下载插件" class="headerlink" title="3、 下载插件"></a>3、 下载插件</h4><p>​    刚刚从官网下载好的Maven是空的，我们就要使用诸如：</p>
+<pre><code>mvn install</code></pre>
+<p>的命令，这个时候Maven会自动从远程资源库下载大部分核心Maven插件。</p>
+<h3 id="五、Maven的约定"><a href="#五、Maven的约定" class="headerlink" title="五、Maven的约定"></a>五、Maven的约定</h3><ul>
+<li><strong>源代码</strong>应该位于：${basedir}/scr/main/java 路径下。</li>
+<li><strong>资源文件</strong>应该位于：${basedir}/scr/main/resources 路径下。</li>
+<li><strong>测试代码</strong>应该位于：${basedir}/scr/test 路径下。</li>
+<li>编译<strong>生成的class文件</strong>应该位于：${basedir}/target/classes  路径下。</li>
+<li>项目应该会<strong>产生一个JAR文件</strong>，并将生成的JAR文件打包放在：${basedir}/target 路径下。</li>
+</ul>
+<h3 id="六、-Maven的生命周期"><a href="#六、-Maven的生命周期" class="headerlink" title="六、 Maven的生命周期"></a>六、 Maven的生命周期</h3><ol>
+<li><p>Maven的生命周期是指Maven构建项目包含多个有序的阶段（phase），它可以支持许多不同的生命周期。</p>
+</li>
+<li><p>Maven生命周期中的元素被称为phase（阶段），每个生命周期有多个阶段组成，各阶段总是按顺序依次执行，Maven默认的生命周期的开始阶段是验证项目的基本完整性，结束阶段是将该项目发布到远程仓库。</p>
+</li>
+<li><p>Maven包含三个基本的生命周期：<strong>clean、default、site。</strong></p>
+</li>
+<li><p>Maven默认生命周期包含的核心阶段：</p>
+<ul>
+<li><strong>compile</strong>：编译项目。</li>
+<li><strong>test</strong>：单元测试。</li>
+<li><strong>package</strong>：项目打包。</li>
+<li><strong>install</strong>：安装到本地仓库。</li>
+<li><strong>deploy</strong>：部署到远程仓库。</li>
+</ul>
+</li>
+</ol>
+<h3 id="七、-Maven坐标"><a href="#七、-Maven坐标" class="headerlink" title="七、 Maven坐标"></a>七、 Maven坐标</h3><p>POM需要为项目提供一个唯一标识，这个标识就被称为Maven标识。Maven坐标由如下四个元素组成：</p>
+<ul>
+<li>groupId：该项目的开发者的标识名。</li>
+<li>artifactId：指定项目名。</li>
+<li>packaging：指定项目打包的类型。</li>
+<li>version：指定项目的版本。</li>
+</ul>
+<h3 id="八、-Maven资源库"><a href="#八、-Maven资源库" class="headerlink" title="八、 Maven资源库"></a>八、 Maven资源库</h3><p>Maven资源库用于保存Maven插件，以及第三方框架。通常可分为以下三种：</p>
+<ol>
+<li>本地资源库；</li>
+<li>远程资源库；</li>
+<li>中央资源库（默认）</li>
+</ol>
+<p>当Maven需要使用某个插件或JAR包时，Maven搜索顺序是：<strong>本地资源库→远程资源库→中央资源库</strong>。</p>
 
                 
             </div>
@@ -550,7 +629,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cn-xiaoxiao.github.io/2021/03/15/1.5%E7%BA%BF%E6%80%A7%E8%A1%A8/">http://cn-xiaoxiao.github.io/2021/03/15/1.5%E7%BA%BF%E6%80%A7%E8%A1%A8/</a>
+                    <a href="http://cn-xiaoxiao.github.io/2021/03/20/Maven%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">http://cn-xiaoxiao.github.io/2021/03/20/Maven%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -588,8 +667,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/C%E8%AF%AD%E8%A8%80/">
-                                    <span class="chip bg-color">C语言</span>
+                                <a href="/tags/Maven/">
+                                    <span class="chip bg-color">Maven</span>
+                                </a>
+                            
+                                <a href="/tags/Java/">
+                                    <span class="chip bg-color">Java</span>
+                                </a>
+                            
+                                <a href="/tags/JavaWeb/">
+                                    <span class="chip bg-color">JavaWeb</span>
                                 </a>
                             
                         </div>
@@ -1022,9 +1109,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
                 <a href="/2021/03/20/Maven%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
                     <div class="card-image">
@@ -1042,9 +1130,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-20
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-03-20
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1057,6 +1145,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1083,13 +1172,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/08/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%8C%85%E8%A3%85%E7%B1%BB/">
+                <a href="/2021/03/15/1.5%E7%BA%BF%E6%80%A7%E8%A1%A8/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Java常用类之包装类">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="1.5线性表">
                         
-                        <span class="card-title">Java常用类之包装类</span>
+                        <span class="card-title">1.5线性表</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1100,14 +1189,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-08
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-03-15
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
-                                    Java学习笔记
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="post-category">
+                                    数据结构
                                 </a>
                             
                             
@@ -1117,12 +1206,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java/">
-                        <span class="chip bg-color">Java</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%B8%B8%E7%94%A8%E7%B1%BB/">
-                        <span class="chip bg-color">常用类</span>
+                    <a href="/tags/C%E8%AF%AD%E8%A8%80/">
+                        <span class="chip bg-color">C语言</span>
                     </a>
                     
                 </div>

@@ -6,7 +6,7 @@
   <link href="http://cn-xiaoxiao.github.io/atom.xml" rel="self"/>
   
   <link href="http://cn-xiaoxiao.github.io/"/>
-  <updated>2021-03-15T15:37:59.840Z</updated>
+  <updated>2021-03-22T13:38:40.000Z</updated>
   <id>http://cn-xiaoxiao.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Maven的基础知识</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/03/20/Maven%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/03/20/Maven%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</id>
+    <published>2021-03-20T14:41:39.000Z</published>
+    <updated>2021-03-22T13:38:40.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Maven的基础知识&quot;&gt;&lt;a href=&quot;#Maven的基础知识&quot; class=&quot;headerlink&quot; title=&quot;Maven的基础知识&quot;&gt;&lt;/a&gt;Maven的基础知识&lt;/h1&gt;&lt;p&gt;​    学完本章，你将掌握Maven的一些基础知识。&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://cn-xiaoxiao.github.io/categories/JavaWeb/"/>
+    
+    
+    <category term="Maven" scheme="http://cn-xiaoxiao.github.io/tags/Maven/"/>
+    
+    <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+    <category term="JavaWeb" scheme="http://cn-xiaoxiao.github.io/tags/JavaWeb/"/>
+    
+  </entry>
   
   <entry>
     <title>1.5线性表</title>
