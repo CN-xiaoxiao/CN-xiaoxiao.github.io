@@ -74,19 +74,99 @@
   </entry>
   
   <entry>
+    <title>Java常用类之System类</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/02/08/System/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/02/08/System/</id>
+    <published>2021-02-08T13:30:39.000Z</published>
+    <updated>2021-03-28T12:40:23.886Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1-常用方法&quot;&gt;&lt;a href=&quot;#1-常用方法&quot; class=&quot;headerlink&quot; title=&quot;1 常用方法&quot;&gt;&lt;/a&gt;1 常用方法&lt;/h3&gt;&lt;pre class=&quot; language-java&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="Java学习笔记" scheme="http://cn-xiaoxiao.github.io/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+    <category term="常用类" scheme="http://cn-xiaoxiao.github.io/tags/%E5%B8%B8%E7%94%A8%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java常用类之String类</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/02/08/String%E7%B1%BB/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/02/08/String%E7%B1%BB/</id>
+    <published>2021-02-08T13:20:39.000Z</published>
+    <updated>2021-03-28T12:37:17.078Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、基本概述&quot;&gt;&lt;a href=&quot;#一、基本概述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java学习笔记" scheme="http://cn-xiaoxiao.github.io/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+    <category term="常用类" scheme="http://cn-xiaoxiao.github.io/tags/%E5%B8%B8%E7%94%A8%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Java常用类之包装类</title>
     <link href="http://cn-xiaoxiao.github.io/2021/02/08/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%8C%85%E8%A3%85%E7%B1%BB/"/>
     <id>http://cn-xiaoxiao.github.io/2021/02/08/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%8C%85%E8%A3%85%E7%B1%BB/</id>
     <published>2021-02-08T13:20:39.000Z</published>
-    <updated>2021-02-08T13:29:51.920Z</updated>
+    <updated>2021-03-28T12:38:30.332Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h3 id=&quot;1-1-基本类型包装类的概述&quot;&gt;&lt;a href=&quot;#1-1-基本类型包装类的概述&quot; class=&quot;headerlink&quot; title=&quot;1.1 基本类型包装类的概述&quot;&gt;&lt;/a&gt;1.1 基本类型包装类的概述&lt;/h3&gt;&lt;p&gt;​   </summary>
+    <summary type="html">&lt;h3 id=&quot;1-1-基本类型包装类的概述&quot;&gt;&lt;a href=&quot;#1-1-基本类型包装类的概述&quot; class=&quot;headerlink&quot; title=&quot;1.1 基本类型包装类的概述&quot;&gt;&lt;/a&gt;1.1 基本类型包装类的概述&lt;/h3&gt;&lt;p&gt;​   </summary>
+        
+      
+    
+    
+    
+    <category term="Java学习笔记" scheme="http://cn-xiaoxiao.github.io/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+    <category term="常用类" scheme="http://cn-xiaoxiao.github.io/tags/%E5%B8%B8%E7%94%A8%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java常用类之 Object类</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/02/08/Object/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/02/08/Object/</id>
+    <published>2021-02-08T12:41:39.000Z</published>
+    <updated>2021-03-28T12:44:36.198Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、Object类总述：&quot;&gt;&lt;a href=&quot;#一、Object类总述：&quot; class=&quot;headerlink&quot;</summary>
         
       
     

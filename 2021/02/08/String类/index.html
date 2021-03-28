@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Java常用类之包装类, Java,MySQL,C,C++,Python">
+    <meta name="keywords" content="Java常用类之String类, Java,MySQL,C,C++,Python">
     <meta name="description" content="This is my blog.Thanks to visit it!">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Java常用类之包装类 | XiaoXiao&#39;s blogs</title>
+    <title>Java常用类之String类 | XiaoXiao&#39;s blogs</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Java常用类之包装类</h1>
+                    <h1 class="description center-align post-title">Java常用类之String类</h1>
                 </div>
             </div>
         </div>
@@ -481,7 +481,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    298
+                    361
                 </div>
                 
 
@@ -513,25 +513,38 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="1-1-基本类型包装类的概述"><a href="#1-1-基本类型包装类的概述" class="headerlink" title="1.1 基本类型包装类的概述"></a>1.1 基本类型包装类的概述</h3><p>​    将基本数据类型封装成对象的好处在于可以在对象中定义更多的功能方法操作该数据常用的操作之一：用于基本数据类型与字符串之间的转换。</p>
-<p>​    基本数据类型    包装类</p>
-<p>​    byte                    Byte</p>
-<p>​    short                  Short</p>
-<p>​    int                        Integer</p>
-<p>​    long                     Long</p>
-<p>​    float                     Float</p>
-<p>​    double                 Double</p>
-<p>​    char                       Character</p>
-<p>​    boolean                 Boolean</p>
-<h3 id="1-2-Integer-类"><a href="#1-2-Integer-类" class="headerlink" title="1.2 Integer 类"></a>1.2 Integer 类</h3><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> Integer <span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">//返回表示指定int值的Integer实例</span>
-<span class="token keyword">public</span> <span class="token keyword">static</span> Integer <span class="token function">valueOf</span><span class="token punctuation">(</span>String s<span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">//返回一个保存指定值的Integer对象String</span></code></pre>
-<h3 id="1-3-转换的一个例子（int-lt-—-gt-String"><a href="#1-3-转换的一个例子（int-lt-—-gt-String" class="headerlink" title="1.3 转换的一个例子（int <—-> String)"></a>1.3 转换的一个例子（int &lt;—-&gt; String)</h3><h5 id="①：int转换为String"><a href="#①：int转换为String" class="headerlink" title="①：int转换为String"></a>①：int转换为String</h5><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> String <span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token punctuation">)</span> <span class="token comment" spellcheck="true">//返回参数的字符串表示形式</span></code></pre>
-<h5 id="②：String转换为int"><a href="#②：String转换为int" class="headerlink" title="②：String转换为int"></a>②：String转换为int</h5><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">int</span> <span class="token function">parseInt</span><span class="token punctuation">(</span>String s<span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">//将字符串解析为int类型。</span></code></pre>
-<h3 id="1-4-自动装箱和拆箱"><a href="#1-4-自动装箱和拆箱" class="headerlink" title="1.4 自动装箱和拆箱"></a>1.4 自动装箱和拆箱</h3><h5 id="①：装箱"><a href="#①：装箱" class="headerlink" title="①：装箱"></a>①：装箱</h5><p>​        把基本数据类型转换为对应的包装类类型</p>
-<h5 id="②：拆箱"><a href="#②：拆箱" class="headerlink" title="②：拆箱"></a>②：拆箱</h5><p>​        把包装类类型转换为对应的基本数据类型</p>
-<h5 id="③：一个实例"><a href="#③：一个实例" class="headerlink" title="③：一个实例"></a>③：一个实例</h5><pre class=" language-java"><code class="language-java">Integer i <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">//自动装箱  Integer i = Integer.valueOf(100);</span>
-i <span class="token operator">+=</span> <span class="token number">200</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">//i = i + 200 自动装箱。 i + 200 自动拆箱： i.intValue() + 200;  </span></code></pre>
-<h5 id="④：一个建议："><a href="#④：一个建议：" class="headerlink" title="④：一个建议："></a>④：一个建议：</h5><p>​        主要是对象，在使用前就必须进行不为null的判断。</p>
+                <h3 id="一、基本概述"><a href="#一、基本概述" class="headerlink" title="一、基本概述"></a>一、基本概述</h3><ul>
+<li><p>字符串是常量，创建之后就不可改变（给字符串赋值时，并没有开辟修改数据，而是重新开辟空间）</p>
+</li>
+<li><p>字符串字面值存储在字符串池中，可以共享</p>
+</li>
+<li><pre class=" language-java"><code class="language-java">String s <span class="token operator">=</span> <span class="token string">"hello"</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">//产生一个对象，在字符串池中存储</span>
+String s <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token string">"hello"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">//产生两个对象，堆、池各存储一个</span></code></pre>
+</li>
+</ul>
+<h3 id="二、常用方法"><a href="#二、常用方法" class="headerlink" title="二、常用方法"></a>二、常用方法</h3><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//返回字符串的长度</span>
+<span class="token keyword">public</span> <span class="token keyword">char</span> <span class="token function">charAt</span><span class="token punctuation">(</span><span class="token keyword">int</span> index<span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//根据下标获取字符</span>
+<span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">contains</span><span class="token punctuation">(</span>String str<span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//判断当前字符串中是否包含str</span>
+<span class="token keyword">public</span> <span class="token keyword">char</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">toCharArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//将字符串转换成数组</span>
+<span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">indexOf</span><span class="token punctuation">(</span>String str<span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//查找str首次出现的下标，存在，则返回该下标，否则返回-1</span>
+<span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">lastIndexOf</span><span class="token punctuation">(</span>String str<span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//查找字符串在当前字符串中最后一次出现的下标索引</span>
+<span class="token keyword">public</span> String <span class="token function">trim</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//去掉字符串前后的空格</span>
+<span class="token keyword">public</span> String <span class="token function">toUpperCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//将小写转成大写</span>
+<span class="token keyword">public</span> String <span class="token function">toLowerCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//将大写转成小写</span>
+<span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">endWith</span><span class="token punctuation">(</span>String str<span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//判断字符串是否以str结尾</span>
+<span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">startWith</span><span class="token punctuation">(</span>String str<span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//判断字符串是否以str开头</span>
+<span class="token keyword">public</span> String <span class="token function">replace</span><span class="token punctuation">(</span><span class="token keyword">char</span> oldChar<span class="token punctuation">,</span> <span class="token keyword">char</span> newChar<span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//将旧字符串替换成新字符串</span>
+<span class="token keyword">public</span> String<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">split</span><span class="token punctuation">(</span>String str<span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//根据str做拆分</span></code></pre>
+<h3 id="三、可变字符串"><a href="#三、可变字符串" class="headerlink" title="三、可变字符串"></a>三、可变字符串</h3><ul>
+<li><p>StringBuffer: 可变长字符串，运行效率慢，线程安全</p>
+</li>
+<li><p>StringBuilder: 可变长字符串，运行效率快，线程不安全</p>
+<pre class=" language-java"><code class="language-java"><span class="token function">append</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//追加字符串</span>
+<span class="token function">insert</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//添加</span>
+<span class="token function">replace</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//替换</span>
+<span class="token function">delete</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>  <span class="token comment" spellcheck="true">//删除</span></code></pre>
+</li>
+</ul>
 
                 
             </div>
@@ -558,7 +571,7 @@ i <span class="token operator">+=</span> <span class="token number">200</span><s
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cn-xiaoxiao.github.io/2021/02/08/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%8C%85%E8%A3%85%E7%B1%BB/">http://cn-xiaoxiao.github.io/2021/02/08/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%8C%85%E8%A3%85%E7%B1%BB/</a>
+                    <a href="http://cn-xiaoxiao.github.io/2021/02/08/String%E7%B1%BB/">http://cn-xiaoxiao.github.io/2021/02/08/String%E7%B1%BB/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1038,13 +1051,13 @@ i <span class="token operator">+=</span> <span class="token number">200</span><s
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2021/02/08/String%E7%B1%BB/">
+                <a href="/2021/02/08/System/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Java常用类之String类">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Java常用类之System类">
                         
-                        <span class="card-title">Java常用类之String类</span>
+                        <span class="card-title">Java常用类之System类</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1091,13 +1104,13 @@ i <span class="token operator">+=</span> <span class="token number">200</span><s
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/08/Object/">
+                <a href="/2021/02/08/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%8C%85%E8%A3%85%E7%B1%BB/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Java常用类之 Object类">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Java常用类之包装类">
                         
-                        <span class="card-title">Java常用类之 Object类</span>
+                        <span class="card-title">Java常用类之包装类</span>
                     </div>
                 </a>
                 <div class="card-content article-content">

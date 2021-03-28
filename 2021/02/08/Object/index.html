@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Java常用类之包装类, Java,MySQL,C,C++,Python">
+    <meta name="keywords" content="Java常用类之 Object类, Java,MySQL,C,C++,Python">
     <meta name="description" content="This is my blog.Thanks to visit it!">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Java常用类之包装类 | XiaoXiao&#39;s blogs</title>
+    <title>Java常用类之 Object类 | XiaoXiao&#39;s blogs</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Java常用类之包装类</h1>
+                    <h1 class="description center-align post-title">Java常用类之 Object类</h1>
                 </div>
             </div>
         </div>
@@ -481,14 +481,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    298
+                    569
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    2 Min
                 </div>
                 
 
@@ -513,25 +513,83 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="1-1-基本类型包装类的概述"><a href="#1-1-基本类型包装类的概述" class="headerlink" title="1.1 基本类型包装类的概述"></a>1.1 基本类型包装类的概述</h3><p>​    将基本数据类型封装成对象的好处在于可以在对象中定义更多的功能方法操作该数据常用的操作之一：用于基本数据类型与字符串之间的转换。</p>
-<p>​    基本数据类型    包装类</p>
-<p>​    byte                    Byte</p>
-<p>​    short                  Short</p>
-<p>​    int                        Integer</p>
-<p>​    long                     Long</p>
-<p>​    float                     Float</p>
-<p>​    double                 Double</p>
-<p>​    char                       Character</p>
-<p>​    boolean                 Boolean</p>
-<h3 id="1-2-Integer-类"><a href="#1-2-Integer-类" class="headerlink" title="1.2 Integer 类"></a>1.2 Integer 类</h3><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> Integer <span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">//返回表示指定int值的Integer实例</span>
-<span class="token keyword">public</span> <span class="token keyword">static</span> Integer <span class="token function">valueOf</span><span class="token punctuation">(</span>String s<span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">//返回一个保存指定值的Integer对象String</span></code></pre>
-<h3 id="1-3-转换的一个例子（int-lt-—-gt-String"><a href="#1-3-转换的一个例子（int-lt-—-gt-String" class="headerlink" title="1.3 转换的一个例子（int <—-> String)"></a>1.3 转换的一个例子（int &lt;—-&gt; String)</h3><h5 id="①：int转换为String"><a href="#①：int转换为String" class="headerlink" title="①：int转换为String"></a>①：int转换为String</h5><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> String <span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token punctuation">)</span> <span class="token comment" spellcheck="true">//返回参数的字符串表示形式</span></code></pre>
-<h5 id="②：String转换为int"><a href="#②：String转换为int" class="headerlink" title="②：String转换为int"></a>②：String转换为int</h5><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">int</span> <span class="token function">parseInt</span><span class="token punctuation">(</span>String s<span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">//将字符串解析为int类型。</span></code></pre>
-<h3 id="1-4-自动装箱和拆箱"><a href="#1-4-自动装箱和拆箱" class="headerlink" title="1.4 自动装箱和拆箱"></a>1.4 自动装箱和拆箱</h3><h5 id="①：装箱"><a href="#①：装箱" class="headerlink" title="①：装箱"></a>①：装箱</h5><p>​        把基本数据类型转换为对应的包装类类型</p>
-<h5 id="②：拆箱"><a href="#②：拆箱" class="headerlink" title="②：拆箱"></a>②：拆箱</h5><p>​        把包装类类型转换为对应的基本数据类型</p>
-<h5 id="③：一个实例"><a href="#③：一个实例" class="headerlink" title="③：一个实例"></a>③：一个实例</h5><pre class=" language-java"><code class="language-java">Integer i <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">//自动装箱  Integer i = Integer.valueOf(100);</span>
-i <span class="token operator">+=</span> <span class="token number">200</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">//i = i + 200 自动装箱。 i + 200 自动拆箱： i.intValue() + 200;  </span></code></pre>
-<h5 id="④：一个建议："><a href="#④：一个建议：" class="headerlink" title="④：一个建议："></a>④：一个建议：</h5><p>​        主要是对象，在使用前就必须进行不为null的判断。</p>
+                <h3 id="一、Object类总述："><a href="#一、Object类总述：" class="headerlink" title="一、Object类总述："></a>一、Object类总述：</h3><ol>
+<li><p>是所有类的父类。在Java中，如果一个类没有显式的继承另一个类，那么这个类默认继承了Object类。</p>
+</li>
+<li><p>Object类中的方法是所有对象都具有的方法。</p>
+</li>
+<li><p>Object类型可以存储任何对象。</p>
+</li>
+</ol>
+<h3 id="二、方法："><a href="#二、方法：" class="headerlink" title="二、方法："></a>二、方法：</h3><h4 id="1-getClass"><a href="#1-getClass" class="headerlink" title="1. getClass():"></a>1. getClass():</h4><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">final</span> <span class="token keyword">class</span><span class="token operator">&lt;</span><span class="token operator">?</span><span class="token operator">></span> <span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span></code></pre>
+<blockquote>
+<p>作用：返回引用中存储的实际对象类型。</p>
+</blockquote>
+<blockquote>
+<p>应用：可以用于判断两个引用中实际存储对象类型是否一致。</p>
+</blockquote>
+<h4 id="2-hashCode"><a href="#2-hashCode" class="headerlink" title="2. hashCode():"></a>2. hashCode():</h4><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">hashCode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span></code></pre>
+<blockquote>
+<p>作用：返回该对象的哈希码值。</p>
+</blockquote>
+<blockquote>
+<p>哈希值：根据对象的地址或字符串或数字使用hash算法计算出来的int类型的数值。一般情况下，相同的对象返回相同的哈希码。</p>
+</blockquote>
+<h4 id="3-toString"><a href="#3-toString" class="headerlink" title="3. toString():"></a>3. toString():</h4><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> String <span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span></code></pre>
+<blockquote>
+<p>作用：返回该对象的字符串表示（表现形式），可以重写。</p>
+</blockquote>
+<h4 id="4-equals-："><a href="#4-equals-：" class="headerlink" title="4. equals()："></a>4. equals()：</h4><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">equals</span><span class="token punctuation">(</span>Object obj<span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span></code></pre>
+<blockquote>
+<p>默认实现为（this == obj），比较两个对象的地址是否相同，可以重写。</p>
+</blockquote>
+<ul>
+<li><p>equals()方法的重写示例：</p>
+<blockquote>
+<ol>
+<li>比较当前引用是否指向同一个对象；</li>
+<li>判断obj是否为null；</li>
+<li>判断两个引用指向的实际对象类型是否一致；</li>
+<li>强类型转换；</li>
+<li>依次比较各个属性值是否相同。</li>
+</ol>
+</blockquote>
+</li>
+</ul>
+<pre class=" language-java"><code class="language-java">    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">equals</span><span class="token punctuation">(</span>Object obj<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">//判断是否是同一个对象</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span> <span class="token operator">==</span> obj<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment" spellcheck="true">//判断obj是否为空</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>obj <span class="token operator">==</span> null<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment" spellcheck="true">//判断他们的实际对象类型是否一致</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> obj<span class="token punctuation">.</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token comment" spellcheck="true">//强制类型转换</span>
+            Teacher t <span class="token operator">=</span> <span class="token punctuation">(</span>Teacher<span class="token punctuation">)</span> obj<span class="token punctuation">;</span>
+
+            <span class="token comment" spellcheck="true">//依次比较各个属性是否相同</span>
+            <span class="token keyword">return</span> name<span class="token punctuation">.</span><span class="token function">equals</span><span class="token punctuation">(</span>t<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> age <span class="token operator">==</span> t<span class="token punctuation">.</span><span class="token function">getAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</code></pre>
+<h4 id="5-finalize"><a href="#5-finalize" class="headerlink" title="5. finalize():"></a>5. finalize():</h4><blockquote>
+<p>当对象被判定为垃圾对象时，由JVM自动调用此方法，用以标记垃圾对象进入回收队列；</p>
+</blockquote>
+<blockquote>
+<p>垃圾对象：没有有效引用指向此对象。</p>
+<p>垃圾回收：由GC销毁垃圾对象，释放数据存储空间。</p>
+<p>自动回收机制：JVM的内存耗尽，一次性回收所有垃圾对象。</p>
+<p>手动回收机制：使用System.gc(); 通知JVM执行垃圾回收。（未定会执行）</p>
+</blockquote>
+<h3 id="三、补充："><a href="#三、补充：" class="headerlink" title="三、补充："></a>三、补充：</h3><h5 id="1-关于重写equals方法时判断实际类型类型比较时，getClass-方法与instanceof区别。"><a href="#1-关于重写equals方法时判断实际类型类型比较时，getClass-方法与instanceof区别。" class="headerlink" title="1.关于重写equals方法时判断实际类型类型比较时，getClass()方法与instanceof区别。"></a>1.关于重写equals方法时判断实际类型类型比较时，getClass()方法与instanceof区别。</h5><p>[]: <a target="_blank" rel="noopener" href="https://www.cnblogs.com/1693977889zz/p/7089320.html">https://www.cnblogs.com/1693977889zz/p/7089320.html</a>    “Java重写equals方法（重点讲解）”</p>
+<p>@<a target="_blank" rel="noopener" href="https://home.cnblogs.com/u/1693977889zz/">江河湖泊</a></p>
 
                 
             </div>
@@ -558,7 +616,7 @@ i <span class="token operator">+=</span> <span class="token number">200</span><s
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cn-xiaoxiao.github.io/2021/02/08/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%8C%85%E8%A3%85%E7%B1%BB/">http://cn-xiaoxiao.github.io/2021/02/08/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%8C%85%E8%A3%85%E7%B1%BB/</a>
+                    <a href="http://cn-xiaoxiao.github.io/2021/02/08/Object/">http://cn-xiaoxiao.github.io/2021/02/08/Object/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1038,13 +1096,13 @@ i <span class="token operator">+=</span> <span class="token number">200</span><s
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2021/02/08/String%E7%B1%BB/">
+                <a href="/2021/02/08/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%8C%85%E8%A3%85%E7%B1%BB/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Java常用类之String类">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Java常用类之包装类">
                         
-                        <span class="card-title">Java常用类之String类</span>
+                        <span class="card-title">Java常用类之包装类</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1091,13 +1149,13 @@ i <span class="token operator">+=</span> <span class="token number">200</span><s
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/08/Object/">
+                <a href="/2021/01/25/%E9%A1%BA%E5%BA%8F%E8%A1%A8/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Java常用类之 Object类">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="顺序表">
                         
-                        <span class="card-title">Java常用类之 Object类</span>
+                        <span class="card-title">顺序表</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1108,14 +1166,14 @@ i <span class="token operator">+=</span> <span class="token number">200</span><s
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-08
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-25
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-category">
-                                    Java学习笔记
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="post-category">
+                                    数据结构
                                 </a>
                             
                             
@@ -1125,12 +1183,8 @@ i <span class="token operator">+=</span> <span class="token number">200</span><s
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java/">
-                        <span class="chip bg-color">Java</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%B8%B8%E7%94%A8%E7%B1%BB/">
-                        <span class="chip bg-color">常用类</span>
+                    <a href="/tags/C%E8%AF%AD%E8%A8%80/">
+                        <span class="chip bg-color">C语言</span>
                     </a>
                     
                 </div>
