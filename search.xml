@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>4.1数据结构之BF算法</title>
+      <link href="2021/05/22/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8BBF%E7%AE%97%E6%B3%95/"/>
+      <url>2021/05/22/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8BBF%E7%AE%97%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>​        事情是这样的，还记得在做课设的时候，要求查询时，输入abc，所有包含abc的内容要显示出来。然后就看到有位同学说了这个可以用BF算法！！当时，群里炸了，what？什么是BF算法？我们都是用暴力破解的，然后那个人就被称为大佬了，一时间被无数迷妹追寻。</p><p>​        BF，Brute Force，暴力算法（手动滑稽）。字符串的模式匹配，最简单的一种就是使用BF算法，我一个一个的匹配，总是可以得到正确结果的。它的思路是这样的：先从第一个位置，逐个比对，如果发现有一个不同，停止比对，从下一个位置继续逐个比对。一直循环下去，直到找到第一个匹配成功的，或者被查找的字符串（主串）到达末尾。示意图如下：</p><p><img src="https://www.helloimg.com/images/2021/05/22/Bf1pwn.gif" alt="BF算法"></p><p>​        然后就是我们的实现代码，这里给出C语言的：</p><pre class=" language-c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">BF</span><span class="token punctuation">(</span><span class="token keyword">char</span> str<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">char</span> s<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>    <span class="token keyword">int</span> len1 <span class="token operator">=</span> <span class="token function">strlen</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> len2 <span class="token operator">=</span> <span class="token function">strlen</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> len1 <span class="token operator">&amp;&amp;</span> j <span class="token operator">&lt;</span> len2<span class="token punctuation">)</span> <span class="token punctuation">{</span>        <span class="token keyword">if</span> <span class="token punctuation">(</span>str<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> s<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>            i<span class="token operator">++</span><span class="token punctuation">;</span>            j<span class="token operator">++</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token keyword">else</span> <span class="token punctuation">{</span>            i <span class="token operator">=</span> i <span class="token operator">-</span> j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>            j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>    <span class="token punctuation">}</span>    <span class="token keyword">return</span> <span class="token punctuation">(</span>j <span class="token operator">>=</span> len2<span class="token punctuation">)</span> <span class="token operator">?</span>  i<span class="token operator">-</span>j <span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span><span class="token punctuation">}</span></code></pre><p>​        怎么样，是不是很简单？恭喜你又掌握了一个技能！下次我们会讲比他要好的算法：KMP算法。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C语言 </tag>
+            
+            <tag> 字符串 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Maven的基础知识</title>
       <link href="2021/03/20/Maven%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
       <url>2021/03/20/Maven%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>
@@ -20,9 +47,9 @@
       
         <tags>
             
-            <tag> Maven </tag>
-            
             <tag> Java </tag>
+            
+            <tag> Maven </tag>
             
             <tag> JavaWeb </tag>
             
