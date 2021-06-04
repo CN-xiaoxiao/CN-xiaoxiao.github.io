@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="4.1数据结构之BF算法, Java,MySQL,C,C++,Python">
+    <meta name="keywords" content="4.1字符串匹配的朴素实现, Java,MySQL,C,C++,Python">
     <meta name="description" content="This is my blog.Thanks to visit it!">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>4.1数据结构之BF算法 | XiaoXiao&#39;s blogs</title>
+    <title>4.1字符串匹配的朴素实现 | XiaoXiao&#39;s blogs</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">4.1数据结构之BF算法</h1>
+                    <h1 class="description center-align post-title">4.1字符串匹配的朴素实现</h1>
                 </div>
             </div>
         </div>
@@ -474,14 +474,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2021-05-22
+                    2021-06-05
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    338
+                    397
                 </div>
                 
 
@@ -513,9 +513,10 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>​        事情是这样的，还记得在做课设的时候，要求查询时，输入abc，所有包含abc的内容要显示出来。然后就看到有位同学说了这个可以用BF算法！！当时，群里炸了，what？什么是BF算法？我们都是用暴力破解的，然后那个人就被称为大佬了，一时间被无数迷妹追寻。</p>
-<p>​        BF，Brute Force，暴力算法（手动滑稽）。字符串的模式匹配，最简单的一种就是使用BF算法，我一个一个的匹配，总是可以得到正确结果的。它的思路是这样的：先从第一个位置，逐个比对，如果发现有一个不同，停止比对，从下一个位置继续逐个比对。一直循环下去，直到找到第一个匹配成功的，或者被查找的字符串（主串）到达末尾。示意图如下：</p>
-<p><img src="https://www.helloimg.com/images/2021/05/22/Bf1pwn.gif" alt="BF算法"></p>
+                <p>​    </p>
+<p>​    很多情况，我们都会遇到字符串的匹配问题，比如说，你在QQ上或者手机通讯录上输入一组数字，当我们逐个输入后，会发现，所有的关于你当前输入的号码（数字）的相关好友、电话都显示出来了。我们想要实现这种功能，可以将其转化为字符串的模式匹配问题。其中，最容易想到的方法就是朴素搜索算法。什么是朴素搜索算法呢？它又称暴力搜索。这么来说吧，就是我拿着模式串和主串（带查找的字符串）一个一个字符进行比较。这么做我是一定可以得到正确结果的。</p>
+<p>​    它的思路是这样的：先从第一个位置（主串），逐个比对，如果发现有一个不同，停止比对，从下一个位置继续逐个比对。一直循环下去，直到找到第一个匹配成功的，或者被查找的字符串（主串）到达末尾。示意图如下：</p>
+<p><img src="https://www.helloimg.com/images/2021/05/22/Bf1pwn.gif" alt="字符串匹配的朴素实现"></p>
 <p>​        然后就是我们的实现代码，这里给出C语言的：</p>
 <pre class=" language-c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">BF</span><span class="token punctuation">(</span><span class="token keyword">char</span> str<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">char</span> s<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
 <span class="token punctuation">{</span>
@@ -537,7 +538,7 @@
 
     <span class="token keyword">return</span> <span class="token punctuation">(</span>j <span class="token operator">>=</span> len2<span class="token punctuation">)</span> <span class="token operator">?</span>  i<span class="token operator">-</span>j <span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-<p>​        怎么样，是不是很简单？恭喜你又掌握了一个技能！下次我们会讲比他要好的算法：KMP算法。</p>
+<p>​        怎么样，是不是很简单？恭喜你又掌握了一个技能！不过，这种算法的时间复杂度太高了。下次我们会讲另一种改进的模式匹配算法：KMP算法。</p>
 
                 
             </div>
@@ -564,7 +565,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cn-xiaoxiao.github.io/2021/05/22/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8BBF%E7%AE%97%E6%B3%95/">http://cn-xiaoxiao.github.io/2021/05/22/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8BBF%E7%AE%97%E6%B3%95/</a>
+                    <a href="http://cn-xiaoxiao.github.io/2021/05/22/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%9A%84%E6%9C%B4%E7%B4%A0%E5%AE%9E%E7%8E%B0/">http://cn-xiaoxiao.github.io/2021/05/22/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%9A%84%E6%9C%B4%E7%B4%A0%E5%AE%9E%E7%8E%B0/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1343,7 +1344,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">8.6k</span>&nbsp;字
+                class="white-color">8.7k</span>&nbsp;字
             
             
             

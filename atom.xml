@@ -46,18 +46,19 @@
   </entry>
   
   <entry>
-    <title>4.1数据结构之BF算法</title>
-    <link href="http://cn-xiaoxiao.github.io/2021/05/22/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8BBF%E7%AE%97%E6%B3%95/"/>
-    <id>http://cn-xiaoxiao.github.io/2021/05/22/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8BBF%E7%AE%97%E6%B3%95/</id>
+    <title>4.1字符串匹配的朴素实现</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/05/22/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%9A%84%E6%9C%B4%E7%B4%A0%E5%AE%9E%E7%8E%B0/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/05/22/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%9A%84%E6%9C%B4%E7%B4%A0%E5%AE%9E%E7%8E%B0/</id>
     <published>2021-05-22T04:55:39.000Z</published>
-    <updated>2021-05-22T08:48:26.847Z</updated>
+    <updated>2021-06-04T16:14:25.026Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;​       </summary>
+    <summary type="html">&lt;p&gt;​    &lt;/p&gt;
+&lt;p&gt;​   </summary>
         
       
     
