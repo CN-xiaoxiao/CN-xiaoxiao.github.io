@@ -474,21 +474,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2021-05-25
+                    2021-06-05
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    940
+                    1.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    3 Min
+                    4 Min
                 </div>
                 
 
@@ -561,7 +561,8 @@
 <p>​    但是，我们还发现了一个问题，什么问题呢？看下图：</p>
 <p><img src="https://www.helloimg.com/images/2021/05/25/Bf999u.png" alt="冒泡排序03"></p>
 <p>​    元素44，46，47明明已经排好序了，而冒泡排序还是傻傻的将他们进行了比较。我们思考一下，该如何解决这个问题呢？</p>
-<p>​    其实，我们可以记录最后一次发生<strong>交换</strong>的位置，然后下一轮排序的边界就是这个最后一次发生交换的下标。为什么呢？因为只要这一轮排序还没有到达最后，他没有发生交换的过程，看说明这个最后一次发生交换的元素后面的其他所有元素，都是已经排好序的了。</p>
+<p>​    其实，我们可以记录最后一次发生<strong>交换</strong>的位置，然后下一轮排序的边界就是这个最后一次发生交换的下标。为什么呢？因为只要这一轮排序还没有到达这一轮排序的末尾边界，他又从这一轮排序中某个位置后，没有发生交换的过程。等到下一次排序碰到这个位置后的数字的时候，是不会发生交换的。这就说明这个最后一次发生交换的元素后面的其他所有元素，都是已经排好序的了。</p>
+<p>​    看起来有点复杂，我们不妨想一想，这一次我们遇到44、46、47的时候我们是没有发生交换的过程的。等这一轮排序结束后，47就已经归位了。下一轮，到44、46的时候，我们又比较了一次，但是他们没有发生交换，也就是说，我们在这里多比较了几次。我们优化的思路就是来源于这。</p>
 <p>​    试思考代码：</p>
 <pre class=" language-c"><code class="language-c"><span class="token keyword">void</span> <span class="token function">BubbleSort3</span><span class="token punctuation">(</span><span class="token keyword">int</span> array<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">int</span> len<span class="token punctuation">)</span>
 <span class="token punctuation">{</span>
@@ -1389,7 +1390,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">8.7k</span>&nbsp;字
+                class="white-color">8.8k</span>&nbsp;字
             
             
             
