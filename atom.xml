@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>XiaoXiao&#39;s blogs</title>
+  
+  <subtitle>XiaoXiao&#39;s blogs</subtitle>
+  <link href="http://cn-xiaoxiao.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://cn-xiaoxiao.github.io/"/>
+  <updated>2023-01-05T09:45:24.171Z</updated>
+  <id>http://cn-xiaoxiao.github.io/</id>
+  
+  <author>
+    <name>XiaoXiao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>APRIORI算法</title>
+    <link href="http://cn-xiaoxiao.github.io/2023/01/01/APRIORI%E7%AE%97%E6%B3%95/"/>
+    <id>http://cn-xiaoxiao.github.io/2023/01/01/APRIORI%E7%AE%97%E6%B3%95/</id>
+    <published>2023-01-01T04:55:39.000Z</published>
+    <updated>2023-01-05T09:45:24.171Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1、什么是APRIORI算法&quot;&gt;&lt;a href=&quot;#1、什么是APRIORI算法&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据挖掘" scheme="http://cn-xiaoxiao.github.io/categories/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
+    
+    
+    <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021年年中总结</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/07/22/2021%E5%B9%B4%E5%B9%B4%E4%B8%AD%E6%80%BB%E7%BB%93/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/07/22/2021%E5%B9%B4%E5%B9%B4%E4%B8%AD%E6%80%BB%E7%BB%93/</id>
+    <published>2021-07-22T08:13:32.000Z</published>
+    <updated>2021-07-22T08:13:32.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;2021年年中总结&quot;&gt;&lt;a href=&quot;#2021年年中总结&quot; class=&quot;headerlink&quot; title=&quot;2021年年中总结&quot;&gt;&lt;/a&gt;2021年年中总结&lt;/h1&gt;&lt;p&gt;​   </summary>
+        
+      
+    
+    
+    
+    <category term="文学" scheme="http://cn-xiaoxiao.github.io/categories/%E6%96%87%E5%AD%A6/"/>
+    
+    
+    <category term="Autobiography" scheme="http://cn-xiaoxiao.github.io/tags/Autobiography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>冒泡排序及其优化</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/05/24/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E5%8F%8A%E5%85%B6%E4%BC%98%E5%8C%96/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/05/24/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E5%8F%8A%E5%85%B6%E4%BC%98%E5%8C%96/</id>
+    <published>2021-05-24T15:25:39.000Z</published>
+    <updated>2021-06-04T16:37:02.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​    我们总是有这种想法：当碰到一组数据时，我们总喜欢对这组数据进行排序。因为排好序后，我们可以轻松的进行分析。&lt;/p&gt;
+&lt;p&gt;​    今天，我们来学习的排序算法是最简单的一种：冒泡排序。&lt;/p&gt;
+&lt;p&gt;​   </summary>
+        
+      
+    
+    
+    
+    <category term="数据结构" scheme="http://cn-xiaoxiao.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+    <category term="C语言" scheme="http://cn-xiaoxiao.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="排序" scheme="http://cn-xiaoxiao.github.io/tags/%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.1字符串匹配的朴素实现</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/05/22/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%9A%84%E6%9C%B4%E7%B4%A0%E5%AE%9E%E7%8E%B0/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/05/22/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%9A%84%E6%9C%B4%E7%B4%A0%E5%AE%9E%E7%8E%B0/</id>
+    <published>2021-05-22T04:55:39.000Z</published>
+    <updated>2021-06-04T16:14:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​    &lt;/p&gt;
+&lt;p&gt;​   </summary>
+        
+      
+    
+    
+    
+    <category term="数据结构" scheme="http://cn-xiaoxiao.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+    <category term="C语言" scheme="http://cn-xiaoxiao.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="字符串" scheme="http://cn-xiaoxiao.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Maven的基础知识</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/03/20/Maven%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/03/20/Maven%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</id>
+    <published>2021-03-20T14:41:39.000Z</published>
+    <updated>2021-03-22T13:38:42.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Maven的基础知识&quot;&gt;&lt;a href=&quot;#Maven的基础知识&quot; class=&quot;headerlink&quot; title=&quot;Maven的基础知识&quot;&gt;&lt;/a&gt;Maven的基础知识&lt;/h1&gt;&lt;p&gt;​    学完本章，你将掌握Maven的一些基础知识。&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://cn-xiaoxiao.github.io/categories/JavaWeb/"/>
+    
+    
+    <category term="Maven" scheme="http://cn-xiaoxiao.github.io/tags/Maven/"/>
+    
+    <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+    <category term="JavaWeb" scheme="http://cn-xiaoxiao.github.io/tags/JavaWeb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1.5线性表</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/03/15/1.5%E7%BA%BF%E6%80%A7%E8%A1%A8/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/03/15/1.5%E7%BA%BF%E6%80%A7%E8%A1%A8/</id>
+    <published>2021-03-15T13:41:39.000Z</published>
+    <updated>2021-03-15T15:38:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hello，大家好，我是肖肖，欢迎大家来到“肖肖的数据结构讲堂”。今天我们不讲新的内容，而是补充一些之前没有讲过的东西，比如线性表的概念，特点，定义等等。本章将是一个愉快的章节。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;一、-线性表的定义&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构" scheme="http://cn-xiaoxiao.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+    <category term="C语言" scheme="http://cn-xiaoxiao.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java常用类之System类</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/02/08/System/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/02/08/System/</id>
+    <published>2021-02-08T13:30:39.000Z</published>
+    <updated>2021-03-28T12:40:24.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1-常用方法&quot;&gt;&lt;a href=&quot;#1-常用方法&quot; class=&quot;headerlink&quot; title=&quot;1 常用方法&quot;&gt;&lt;/a&gt;1 常用方法&lt;/h3&gt;&lt;pre class=&quot; language-java&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="Java学习笔记" scheme="http://cn-xiaoxiao.github.io/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+    <category term="常用类" scheme="http://cn-xiaoxiao.github.io/tags/%E5%B8%B8%E7%94%A8%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java常用类之String类</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/02/08/String%E7%B1%BB/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/02/08/String%E7%B1%BB/</id>
+    <published>2021-02-08T13:20:39.000Z</published>
+    <updated>2021-03-28T12:37:18.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、基本概述&quot;&gt;&lt;a href=&quot;#一、基本概述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java学习笔记" scheme="http://cn-xiaoxiao.github.io/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+    <category term="常用类" scheme="http://cn-xiaoxiao.github.io/tags/%E5%B8%B8%E7%94%A8%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java常用类之包装类</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/02/08/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%8C%85%E8%A3%85%E7%B1%BB/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/02/08/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%8C%85%E8%A3%85%E7%B1%BB/</id>
+    <published>2021-02-08T13:20:39.000Z</published>
+    <updated>2021-03-28T12:38:32.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1-1-基本类型包装类的概述&quot;&gt;&lt;a href=&quot;#1-1-基本类型包装类的概述&quot; class=&quot;headerlink&quot; title=&quot;1.1 基本类型包装类的概述&quot;&gt;&lt;/a&gt;1.1 基本类型包装类的概述&lt;/h3&gt;&lt;p&gt;​   </summary>
+        
+      
+    
+    
+    
+    <category term="Java学习笔记" scheme="http://cn-xiaoxiao.github.io/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+    <category term="常用类" scheme="http://cn-xiaoxiao.github.io/tags/%E5%B8%B8%E7%94%A8%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java常用类之 Object类</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/02/08/Object/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/02/08/Object/</id>
+    <published>2021-02-08T12:41:39.000Z</published>
+    <updated>2021-03-28T12:44:38.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、Object类总述：&quot;&gt;&lt;a href=&quot;#一、Object类总述：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java学习笔记" scheme="http://cn-xiaoxiao.github.io/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+    <category term="常用类" scheme="http://cn-xiaoxiao.github.io/tags/%E5%B8%B8%E7%94%A8%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>顺序表</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/01/25/%E9%A1%BA%E5%BA%8F%E8%A1%A8/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/01/25/%E9%A1%BA%E5%BA%8F%E8%A1%A8/</id>
+    <published>2021-01-25T14:41:39.000Z</published>
+    <updated>2021-02-08T09:41:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;​    Hello,大家好，欢迎来到肖肖的数据结构讲堂，今天我们要来学习的是，线性表中的顺序表。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;一、理论知识：&quot;&gt;&lt;a href=&quot;#一、理论知识：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构" scheme="http://cn-xiaoxiao.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+    <category term="C语言" scheme="http://cn-xiaoxiao.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新的一年，新的梦想</title>
+    <link href="http://cn-xiaoxiao.github.io/2021/01/01/%E6%96%B0%E7%9A%84%E4%B8%80%E5%B9%B4%EF%BC%8C%E8%A6%81%E5%B9%B2%E4%BA%9B%E4%BB%80%E4%B9%88%E5%91%A2%EF%BC%9F/"/>
+    <id>http://cn-xiaoxiao.github.io/2021/01/01/%E6%96%B0%E7%9A%84%E4%B8%80%E5%B9%B4%EF%BC%8C%E8%A6%81%E5%B9%B2%E4%BA%9B%E4%BB%80%E4%B9%88%E5%91%A2%EF%BC%9F/</id>
+    <published>2020-12-31T17:12:08.000Z</published>
+    <updated>2020-12-31T17:12:08.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​    2020年马上就要结束了，想想就有点刺激，回忆2020年，还是真的难以忘却，疫情，高考，上大学。说实话，很愉快也很艰难。人以18，不能像以前那么幼稚了，也差不多要融入社会了。&lt;/p&gt;
+&lt;p&gt;​   </summary>
+        
+      
+    
+    
+    
+    <category term="文学" scheme="http://cn-xiaoxiao.github.io/categories/%E6%96%87%E5%AD%A6/"/>
+    
+    
+    <category term="Autobiography" scheme="http://cn-xiaoxiao.github.io/tags/Autobiography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于我</title>
+    <link href="http://cn-xiaoxiao.github.io/2020/12/27/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
+    <id>http://cn-xiaoxiao.github.io/2020/12/27/%E5%85%B3%E4%BA%8E%E6%88%91/</id>
+    <published>2020-12-27T12:16:00.000Z</published>
+    <updated>2020-12-27T12:16:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本人大一，爱好编程、下棋。学过Java，但没有深入，以前学的时候没做笔记、也没有刷题。现在就读计算机科学与技术专业，是一个小菜鸟，没有参加新生赛，因为是认为自己不是很适合搞算法比赛，我喜欢的是写程序，写项目，写一个有功能的，可以看到效果的东西。现在又差不多把JavaSE学一</summary>
+        
+      
+    
+    
+    
+    <category term="文学" scheme="http://cn-xiaoxiao.github.io/categories/%E6%96%87%E5%AD%A6/"/>
+    
+    
+    <category term="Autobiography" scheme="http://cn-xiaoxiao.github.io/tags/Autobiography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://cn-xiaoxiao.github.io/2020/12/27/hello-world/"/>
+    <id>http://cn-xiaoxiao.github.io/2020/12/27/hello-world/</id>
+    <published>2020-12-26T22:07:20.000Z</published>
+    <updated>2020-12-26T22:07:20.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
