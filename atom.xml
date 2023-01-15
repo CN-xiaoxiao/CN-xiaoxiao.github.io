@@ -6,7 +6,7 @@
   <link href="http://cn-xiaoxiao.github.io/atom.xml" rel="self"/>
   
   <link href="http://cn-xiaoxiao.github.io/"/>
-  <updated>2023-01-05T09:45:24.171Z</updated>
+  <updated>2023-01-15T14:44:55.736Z</updated>
   <id>http://cn-xiaoxiao.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Stream流的简单应用</title>
+    <link href="http://cn-xiaoxiao.github.io/2023/01/15/Stream%E6%B5%81/"/>
+    <id>http://cn-xiaoxiao.github.io/2023/01/15/Stream%E6%B5%81/</id>
+    <published>2023-01-15T04:55:39.000Z</published>
+    <updated>2023-01-15T14:44:55.736Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、stream流的使用步骤&quot;&gt;&lt;a href=&quot;#一、stream流的使用步骤&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java学习笔记" scheme="http://cn-xiaoxiao.github.io/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>APRIORI算法</title>
@@ -145,9 +170,9 @@
     <category term="JavaWeb" scheme="http://cn-xiaoxiao.github.io/categories/JavaWeb/"/>
     
     
-    <category term="Maven" scheme="http://cn-xiaoxiao.github.io/tags/Maven/"/>
-    
     <category term="Java" scheme="http://cn-xiaoxiao.github.io/tags/Java/"/>
+    
+    <category term="Maven" scheme="http://cn-xiaoxiao.github.io/tags/Maven/"/>
     
     <category term="JavaWeb" scheme="http://cn-xiaoxiao.github.io/tags/JavaWeb/"/>
     
